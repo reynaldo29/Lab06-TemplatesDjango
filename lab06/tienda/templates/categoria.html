@@ -1,0 +1,11 @@
+{%extends "layout.html" %}
+
+{% block deta %}
+<ul>
+{% for c in cate %}
+
+<li><h3>{{c.nombre}}</h3></li>
+
+{% endfor%}
+</ul>
+{% endblock %}
